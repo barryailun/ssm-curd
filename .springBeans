@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/main/resources/applicationContext-spring.xml</config>
 		<config>src/main/resources/applicationContext-mybatis.xml</config>
+		<config>src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
