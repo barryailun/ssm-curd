@@ -14,8 +14,9 @@ public class HelloController {
 	
 	@ResponseBody
 	@RequestMapping("/hello")
-	public String hello(@RequestParam(value = "text") String text) {
-		System.out.println(text);
+	public String hello(@RequestParam(value = "text") String text,
+			@RequestParam(value = "username") String username) {
+		System.out.println(text + "\n" + username);
 		return "Hello!";
 	}
 
